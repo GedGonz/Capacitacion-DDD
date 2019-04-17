@@ -26,7 +26,7 @@ namespace UnitTest
             var Aceite = new Aceite(100);
             var valor_Actual = Aceite.Nivel();
 
-            Assert.AreEqual(Valor_Esperado,valor_Actual);
+            Assert.AreEqual(Valor_Esperado, valor_Actual);
         }
 
         [TestMethod]

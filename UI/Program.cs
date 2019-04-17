@@ -15,7 +15,7 @@ namespace UI
         {
             /********************Creando Objeto*********************/
 
-            var Venta = new Venta(new Factura());
+            //var Venta = new Venta(new Factura());
 
 
 
