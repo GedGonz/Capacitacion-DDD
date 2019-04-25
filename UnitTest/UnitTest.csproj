@@ -57,10 +57,19 @@
     <Compile Include="3-InyecciondeDependencia%28DI%29\Ejemplo2\MotorTest.cs" />
     <Compile Include="3-InyecciondeDependencia%28DI%29\Ejemplo2\AutoTest.cs" />
     <Compile Include="3-InyecciondeDependencia%28DI%29\Ejemplo2\ProgramTest.cs" />
+    <Compile Include="6-PatronRepositorio\2-Generico\PersonaNegocioTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <ProjectReference Include="..\DatosPRG\DatosPRG.csproj">
+      <Project>{bc985872-61cf-404a-b81d-d3bcb43a31c9}</Project>
+      <Name>DatosPRG</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NegocioPRG\NegocioPRG.csproj">
+      <Project>{492204a7-4760-45a3-9f5d-a1a3c2d0375b}</Project>
+      <Name>NegocioPRG</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PracticaDI\PracticaDI.csproj">
       <Project>{11b33610-6f83-4f60-9f1b-26761857259d}</Project>
       <Name>PracticaDI</Name>
