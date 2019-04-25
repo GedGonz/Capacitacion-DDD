@@ -17,7 +17,7 @@ namespace PracticaDI
             var auto = new Auto(motor);
             auto.Encender();
             auto.Arrancar();
-            //Console.ReadLine();
+            Console.ReadLine();
         }
     }
 }
