@@ -13,6 +13,8 @@ namespace PracticaConsola
     {
         static void Main(string[] args)
         {
+
+
             var content = new ContainerBuilder();
             Contenedor.content(content);
             IContainer Container = content.Build();
@@ -22,6 +24,7 @@ namespace PracticaConsola
             BasedeDato BD = new BasedeDato(SQL);
             BD.AddData("Dato");
             Console.ReadLine();
+
         }
     }
 }
